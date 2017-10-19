@@ -1,0 +1,44 @@
+---
+bibliography: ~/Dropbox/Bibliography/CoexistStability.bib
+csl: components/ecology.csl
+fontsize: 11pt
+geometry: margin=1in
+header-includes:
+- \usepackage{todonotes}
+- \usepackage{rotating}
+- \usepackage{color, soul}
+- \usepackage{wrapfig}
+- \usepackage[font={footnotesize,it}]{caption}
+- \usepackage{floatrow}
+- \usepackage{palatino}
+layout: 11pt
+linkcolor: black
+output:
+  pdf_document:
+    fig_caption: yes
+    keep_tex: no
+urlcolor: black
+---
+\setlength{\parindent}{2em}
+\setlength{\parskip}{0em}
+
+\begin{center}
+\textbf{\large{CPB Proposed Workshop: \\ Tools and Workflows for Reproducible Science}}
+\end{center}
+
+\vspace{2em}
+
+\noindent{}Science in general, and ecology in particular, is beginning to focus on \emph{reproducibility}.
+This is evidenced by journal policies that require the deposition of data and computer code necessary to reproduce the analyses associated with a publication.
+However, getting your data and code ``in shape'' for public release is a daunting and time-intensive task.
+Fortunately, there are new tools and workflows that make the process easier, especially if they are used throughout a project's life cycle from idea conception to publication.
+Aside from the benefits to other researchers, conducting reproducible science greatly benefits one person in particular: your future self!
+   
+\medskip
+
+During the three day workshop (four hours each day), I will introduce students, postdocs, and faculty to contemporary tools for reproducible science, including Github, R Markdown, Figshare, and Zenodo.
+Using an example project, we will create a Github repository with code and data, create stunning documents with embedded R code, figures, and tables in R Markdown, and archive the entire project on Figshare or Zenodo.
+I will introduce best practices for coding and data cleaning/manipulation along the way, which eases the burden of getting code production-ready after paper acceptance.
+Throughout the workshop I will highlight how the tasks we are learning benefit both the researcher themselves (e.g., figures that update on the fly in R Markdown) and other researchers (e.g., providing a resource from which others can build).
+By the end of the workshop participants will have the skills to easily make their own science reproducible.
+ 

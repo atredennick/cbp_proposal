@@ -1,0 +1,80 @@
+---
+bibliography: ~/Dropbox/Bibliography/CoexistStability.bib
+csl: components/ecology.csl
+fontsize: 11pt
+geometry: margin=1in
+header-includes:
+- \usepackage{todonotes}
+- \usepackage{rotating}
+- \usepackage{color, soul}
+- \usepackage{wrapfig}
+- \usepackage[font={footnotesize,it}]{caption}
+- \usepackage{floatrow}
+- \usepackage{palatino}
+layout: 11pt
+linkcolor: black
+output:
+  pdf_document:
+    fig_caption: yes
+    keep_tex: no
+urlcolor: black
+---
+
+\setlength{\parindent}{2em}
+\setlength{\parskip}{0em}
+
+\begin{center}
+\textbf{\large{CPB Postdoctoral Fellowship: Research Accomplishments}}
+\end{center}
+
+\vspace{2em}
+
+\noindent{}All organisms exist in variable environments, which presents opportunities for species to exploit and challenges they must withstand.
+Likewise, environmental variability presents opportunities for researchers to understand ecological systems by allowing us to measure how species respond to different environmental conditions, while at the same time challenging our ability to predict the future states of ecological systems under novel conditions.
+My research program aims to \emph{understand} and \emph{forecast} the impacts of environmental variability on populations, communities, and ecosystems.
+I use long term data sets to test theory on the drivers of community dynamics and to develop state-of-the-science population forecasting models. 
+
+## Understanding Ecosystem Stability
+
+The temporal stability of an ecosystem is an important indicator of an ecosystem's ability to maintain consistent functioning in the face of changing environmental conditions, which makes ecosystem services more predictable and potentially more sustainable.
+The degree to which responses to environmental conditions are species-specific is an important driver of species synchrony and, in turn, the stability of ecosystem functioning.
+Interspecific interactions and demographic stochasticity also impact species synchrony in theory, but empirical tests showing the relative importance of different drivers on synchrony are rare.
+Using long-term data sets of individual plant performance and demographic modeling techniques, I have shown that environmental responses, not species interactions or demographic stochasticity, determines species synchrony in five natural plant communities (Tredennick et al. 2017, \emph{Ecology}).
+This finding suggests that species gains/losses will have small effects on synchrony and stability relative to the impacts of environmental change.
+
+I have also contributed to our fundamental understanding of the relationship between ecosystem stability and species richness.
+The relationship is core ecological topic, and nearly all theory predicts a positive relationship between stability and diversity.
+Yet, empirical studies yield inconsistent results, with reports of negative, neutral, and positive relationships.
+In a recent paper in \emph{Ecology Letters}, I reconciled theoretical and empirical findings by showing that the mechanism of species coexistence shapes the diversity-stability relationship.
+Specifically, I showed that when species coexistence depends on environmnetal fluctuations, it is entirely possible to find a negative relationship between diversity and stability.
+This finding runs counter to previous theoretical work that assumed fluctuation-independent species coexistence.
+Using the same modeling framework, I also found that as environmental variability increases, new species can locally coexist through fluctuation-dependent mechanisms and buffer ecosystem stability due to portfolio effects.
+It is that last finding I wish to develop further and test as part of my CBP Postdoctoral Fellowship.
+
+Ecosystem stability is an emergent property of population, community, and meta-community dynamics.
+Yet, most previous research has focused on the drivers of stability at local scales (e.g., 1m\textsuperscript{2} plots), ignoring the potential for differences among local communities to stabilize regional ecosystem functioning.
+To fill this knowledge gap, Kevin Wilcox (postdoc at U. Oklahoma) and I led a project to estimate the relative importance of local variability and spatial asynchrony of communities on regional ecosystem variability.
+We used a worldwide data set of plant abundances from 62 meta-communities and found that spatial asynchrony was nearly as important as local variability for determining regional ecosystem variability (Wilcox, Tredennick, et al. In press, \emph{Ecology Letters}).
+Surprisingly, spatial asynchrony resulted from population-specific responses to environmental conditions in space, not species turnover.
+Previous work has exclusively focused on the links among spatial environmental heterogeneity, species turnover, and ecosystem stability, but our contribution shows that spatially-structured population dynamics should not be ignored.
+To better understand the relative influence of species turnover and population-specific dynamics on meta-ecosystem stability, I am planning a collaborative proposal that blends together insights from mathematical modeling, microcosm experiments, and large scale observations\footnote{We have also been invited to consider proposing a `Review and Synthesis' article for \emph{Ecology Letters} building on the questions raised by our forthcoming paper.}.
+
+I am also interested in detecting and understanding alternative stable states.
+My PhD work, published in \emph{The American Naturalist} and \emph{African Journal of Ecology}, investigated the role of tree harvest in determining state transitions between savanna and forest in Africa.
+That savanna and forest are alternative stable states is well supported by theory, and a recent flurry of work using continental scale remote sensing data provided empirical support.
+However, as my collaborators and I reported in \emph{Global Ecology and Biogeography}, the statistical methods used to translate satellite reflectances to tree cover values that define savanna and forest may impose the signature of alternative stable states in spatial data where none exists.
+I have analyzed a new tree cover map for sub-Saharan Africa we produced, which shows no evidence that savanna and forest are alternative stable states, perhaps due to strong spatial interactions among biome types (manuscript in preparation).
+The discrepancy between my findings and previous work sets the stage for re-evaluating how classic theory on tree-fire dynamics scales up from local sites to generate continental patterns.
+
+## Ecological Forecasting
+
+Historical responses of populations to environmental variability offer an opportunity to build models we can use to predict how populations will be impacted by global climate change, a major challenge for ecologists in the 21\textsuperscript{st} century.
+My work meets this challenge on two fronts.
+First, I address fundamental questions about predictive modeling by, for example, exploring the types of data necessary to generate skillful forecasts.
+My paper in \emph{Methods in Ecology and Evolution} shows that demographic data may not be necessary to forecast plant population dynamics, opening the door for predictive population modeling using easy-to-collect percent cover data.
+However, even percent cover data is typically limited to collection in single study locations, which constrains our ability to generate forecasts at spatial scales relevant to land management decisions.
+
+My second contribution addresses the forecasting challenge with a new framework for forecasting plant population dynamics over large spatial extents.
+My paper in \emph{Ecosphere} demonstrates how traditional population dynamic modeling can be combined with remotely sensed estimates of percent cover using cutting-edge spatial statistics to forecast the impacts of climate change on plant popuations over large areas.
+Explicitly modeling the spatial dependence of observations within the data using a basis function approach allowed me to forecast mean cover as well as changes in spatial structure of sagebrush in southeastern Wyoming.
+My approach is the first attempt to combine the information of population models (e.g., population status and temporal dynamics) and the spatial extent of species distribution models.

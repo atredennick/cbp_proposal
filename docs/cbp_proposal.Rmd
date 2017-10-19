@@ -1,0 +1,79 @@
+---
+bibliography: ~/Dropbox/Bibliography/CoexistStability.bib
+csl: components/ecology.csl
+fontsize: 11pt
+geometry: margin=1in
+header-includes:
+- \usepackage{todonotes}
+- \usepackage{rotating}
+- \usepackage{color, soul}
+- \usepackage{wrapfig}
+- \usepackage[font={footnotesize,it}]{caption}
+- \usepackage{floatrow}
+- \usepackage{palatino}
+layout: 11pt
+linkcolor: black
+output:
+  pdf_document:
+    fig_caption: yes
+    keep_tex: no
+urlcolor: black
+---
+
+\setlength{\parindent}{2em}
+\setlength{\parskip}{0em}
+
+\begin{center}
+\textbf{\large{CPB Postdoctoral Fellowship: \\ Can fluctuation-dependent species coexistence rescue ecosystem stability?}}
+\end{center}
+
+# Personnel
+\begin{description}
+\item [Postdoctoral Fellow:] Andrew Tredennick
+\item [Faculty Mentors:] Jennifer Gremer, Alan Hastings, and Susan Harrison
+\end{description}
+
+# Description of Proposed Research
+## Background
+Temporal environmental variation permeates through all levels of ecological systems.
+It can drive the evolution of traits and species, determine the viability of populations, allow species to coexist, and impact the stability of ecosystem functioning.
+Yet, rarely are the impacts of environmental fluctuations at one level of organization explicitly accounted for in the processes that occur at other levels.
+For example, despite rapid theoretical and empirical progress in the fields of species coexistence and biodiversity-ecosystem functioning (BEF) over the last 20 years, research on the two topics remains separate.
+Consequently, we lack a satisifactory answer to a fundamental question of applied relevance: \emph{How will ecosystem stability respond to increasing environmental variability?}
+
+An intuitive prediction is that ecosystem functioning will become less stable as environmental variability increases.
+Such a prediction stems from two lines of evidence.
+First, increasing environmental variability will cause species' abundances to fluctuate more through time, assuming their growth depends on some set of environmental drivers.
+Second, low-abundance species are more likely to go extinct as environmental variability increases.
+Given the well-supported positive relationship between diversity and ecosystem stability, species losses will cause ecosystems to become more variable.
+What this prediction ignores, however, is the impact of species additions.
+
+\begin{wrapfigure}[23]{r}{0.45\textwidth}
+  \centering
+     \includegraphics[height=2in]{../figures/coex-bef_concept-01.png}
+  \caption{An integrated theory to understand the net effect of environmental variability on ecosystem stability. \textcolor{orange}{Coexistence theory} has focused on how environmental variability can maintain diversity by stabilizing species coexistence, while \textcolor{blue}{diversity-stability theory} has focused on the effect of species richness on ecosystem stability. In combination, environmental variability will decrease ecosystem stability, but it may also increase species richness, which increases ecosystem stability (Tredennick et al. 2017). I propose new theory and empirical tests to understand the full effect of environmental variability when it also promotes diversity.}
+\end{wrapfigure}
+
+Environmental variability is a doubled-edged sword: it can increase the probability of stochastic extinctions \emph{and} it can promote species coexistence (Adler & Drake 2008).
+A less intuitive prediction is that ecosystem functioning will neither increase nor decrease in stability as environmental variability increases.
+This prediction still assumes that species' abundances will fluctuate more as environmental variability increases, but those increases are compensated for by species additions (Tredennick et al. 2017).
+Species additions occur because species coexistence is promoted by environmental variability.
+Thus, this competing prediction is conditional on species coexistence being fluctuation-dependent.
+
+Fluctuation-depedent coexistence comes in two flavors: the storage effect and relative nonlinearity.
+
+
+More text here...
+
+## New Theory
+New theory .... storage effect only .... annual plant specific
+
+## Empirical Tests
+Winter annual plant communities in the Sonoran Desert offer an ideal model system for testing predictions from our theoretical model.
+
+
+\begin{figure}
+\floatbox[{\capbeside\thisfloatsetup{capbesideposition={left,top},capbesidewidth=6cm}}]{figure}[\FBwidth]
+{\caption{Simulation results from an annual plant model with two species coexisting by the storage effect. Left panels show time series from three simulations: A) environmental variability is too low to allow coexistence; B) environmental variability is high enough to allow coexistence, but only one species is present; and C) environmental variability is high enough to allow coexistence of both species. The barplot on the right shows the coefficient of variation of total community abundance for each simulation. CV increases as environmental varition does, but fluctuation-dependent coexistence allows for portfolio effects (compare red and blue bars).}\label{fig:test}}
+{\includegraphics[width=4in]{../figures/sim_example.png}}
+\end{figure}
