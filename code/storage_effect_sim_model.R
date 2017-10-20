@@ -65,11 +65,11 @@ getG <- function(sigE, rho, nTime){
 ####
 #### Simulations ---------------------------------------------------------------
 ####
+storage_df <- {}
+# png("../figures/sim_example.png", width = 5, height=3, units="in", res = 120)
 
-png("../figures/sim_example.png", width = 5, height=3, units="in", res = 120)
-
-par(mgp=c(2,0.45,0), tcl=-0.4, mar=c(3.3,3.6,1.1,1.1), las=1)
-layout(matrix(c(1,2,3,4,4,4), 3, 2, byrow = FALSE))
+# par(mgp=c(2,0.45,0), tcl=-0.4, mar=c(3.3,3.6,1.1,1.1), las=1)
+# layout(matrix(c(1,2,3,4,4,4), 3, 2, byrow = FALSE))
 
 ### Low variability // competitive exclusion
 gSeries <- getG(sigE[1], rho[2], nTime)
@@ -81,6 +81,8 @@ for(t in 2:nTime){
 matplot(c(1:nTime), N, type="l", lwd=1, bty="n", xlab="Time", col="black", 
         ylab="N", main="A) Competitive Exclusion", ylim=c(0,150))
 totpop1 <- rowSums(N)
+storage_df <- data.frame(N = N,
+                         model = "Low Var/Comp Excl")
 
 ### High variability // coexistence
 gSeries <- getG(sigE[2], rho[2], nTime)
@@ -92,6 +94,9 @@ for(t in 2:nTime){
 matplot(c(1:nTime), N, type="l", lwd=1, bty="n", xlab="Time", 
         col="blue",ylab="N", main="B) Coexistence Possible")
 totpop2 <- rowSums(N)
+storage_df <- rbind(storage_df, 
+                    data.frame(N = N,
+                         model = "High Var/No Coex"))
 
 
 ### High variability // coexistence
@@ -104,6 +109,9 @@ for(t in 2:nTime){
 matplot(c(1:nTime), N, type="l", lwd=1, bty="n", xlab="Time", 
         col="red", ylab="N", main="C) Species Coexistence", ylim=c(0,150))
 totpop3 <- rowSums(N)
+storage_df <- rbind(storage_df, 
+                    data.frame(N = N,
+                               model = "High Var/Coex"))
 
 
 cv1 <- sd(totpop1)/mean(totpop1)

@@ -43,13 +43,13 @@ Using long-term data sets of individual plant performance and demographic modeli
 This finding suggests that species gains/losses will have small effects on synchrony and stability relative to the impacts of environmental change.
 
 I have also contributed to our fundamental understanding of the relationship between ecosystem stability and species richness.
-The relationship is core ecological topic, and nearly all theory predicts a positive relationship between stability and diversity.
+The relationship is a core ecological topic, and nearly all theory predicts a positive relationship between stability and diversity.
 Yet, empirical studies yield inconsistent results, with reports of negative, neutral, and positive relationships.
-In a recent paper in \emph{Ecology Letters}, I reconciled theoretical and empirical findings by showing that the mechanism of species coexistence shapes the diversity-stability relationship.
+In a recent \emph{Ecology Letters} paper, I reconciled theoretical and empirical findings by showing that the mechanism of species coexistence shapes the diversity-stability relationship.
 Specifically, I showed that when species coexistence depends on environmnetal fluctuations, it is entirely possible to find a negative relationship between diversity and stability.
 This finding runs counter to previous theoretical work that assumed fluctuation-independent species coexistence.
 Using the same modeling framework, I also found that as environmental variability increases, new species can locally coexist through fluctuation-dependent mechanisms and buffer ecosystem stability due to portfolio effects.
-It is that last finding I wish to develop further and test as part of my CBP Postdoctoral Fellowship.
+It is that last finding I wish to develop further and test as part of my CPB Postdoctoral Fellowship.
 
 Ecosystem stability is an emergent property of population, community, and meta-community dynamics.
 Yet, most previous research has focused on the drivers of stability at local scales (e.g., 1m\textsuperscript{2} plots), ignoring the potential for differences among local communities to stabilize regional ecosystem functioning.
