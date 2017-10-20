@@ -28,52 +28,87 @@ urlcolor: black
 \end{center}
 
 # Personnel
+\vspace{-1em}
 \begin{description}
 \item [Postdoctoral Fellow:] Andrew Tredennick
-\item [Faculty Mentors:] Jennifer Gremer, Alan Hastings, and Susan Harrison
+\item [Faculty Mentors:] Jennifer Gremer, Susan Harrison, and Alan Hastings
 \end{description}
 
 # Description of Proposed Research
+\vspace{-1em}
 ## Background
+\vspace{-0.5em}
 Temporal environmental variation permeates through all levels of ecological systems.
 It can drive the evolution of traits and species, determine the viability of populations, allow species to coexist, and impact the stability of ecosystem functioning.
 Yet, rarely are the impacts of environmental fluctuations at one level of organization explicitly accounted for in the processes that occur at other levels.
 For example, despite rapid theoretical and empirical progress in the fields of species coexistence and biodiversity-ecosystem functioning (BEF) over the last 20 years, research on the two topics remains separate.
 Consequently, we lack a satisifactory answer to a fundamental question of applied relevance: \emph{How will ecosystem stability respond to increasing environmental variability?}
 
-An intuitive prediction is that ecosystem functioning will become less stable as environmental variability increases.
-Such a prediction stems from two lines of evidence.
-First, increasing environmental variability will cause species' abundances to fluctuate more through time, assuming their growth depends on some set of environmental drivers.
-Second, low-abundance species are more likely to go extinct as environmental variability increases.
-Given the well-supported positive relationship between diversity and ecosystem stability, species losses will cause ecosystems to become more variable.
-What this prediction ignores, however, is the impact of species additions.
-
+Environmental variability is forecast to increase because of global climate change, and an intuitive prediction is that ecosystem functioning will become less stable as environmental variability increases.
+Increasing environmental variability will cause species' abundances to fluctuate more through time, assuming their growth depends on some set of environmental drivers.
+What this prediction ignores, however, is that environmental variability can also promote species coexistence and, in turn, species richness (Chesson 2000; Figure 1).
 \begin{wrapfigure}[23]{r}{0.45\textwidth}
   \centering
      \includegraphics[height=2in]{../figures/coex-bef_concept-01.png}
   \caption{An integrated theory to understand the net effect of environmental variability on ecosystem stability. \textcolor{orange}{Coexistence theory} has focused on how environmental variability can maintain diversity by stabilizing species coexistence, while \textcolor{blue}{diversity-stability theory} has focused on the effect of species richness on ecosystem stability. In combination, environmental variability will decrease ecosystem stability, but it may also increase species richness, which increases ecosystem stability (Tredennick et al. 2017). I propose new theory and empirical tests to understand the full effect of environmental variability when it also promotes diversity.}
 \end{wrapfigure}
+When coexistence is fluctuation-depdendent, rather than fluctuation-independent, increasing environmental variability can create opportunities for new species to locally coexist and contribute to portfolio effects that stabilize ecosystem functioning (Tredennick et al. 2017).
+So far, this work has been theoretical; whether this phenomenon ocurrs in nature remains unknown.
 
-Environmental variability is a doubled-edged sword: it can increase the probability of stochastic extinctions \emph{and} it can promote species coexistence (Adler & Drake 2008).
-A less intuitive prediction is that ecosystem functioning will neither increase nor decrease in stability as environmental variability increases.
-This prediction still assumes that species' abundances will fluctuate more as environmental variability increases, but those increases are compensated for by species additions (Tredennick et al. 2017).
-Species additions occur because species coexistence is promoted by environmental variability.
-Thus, this competing prediction is conditional on species coexistence being fluctuation-dependent.
-
-Fluctuation-depedent coexistence comes in two flavors: the storage effect and relative nonlinearity.
-
-
-More text here...
+For this CPB Postdoctoral Fellowship, I propose to (1) expand my previous theoretical work that first integrated diversity-stability theory and modern coexistence theory and (2) conduct empirical tests of the theory using long-term data from annual plant systems in Arizona (Gremer & Venable 2014).
+In so doing, I will add to our fundamental understanding of how the causes and consequences of biodiversity interact to create emergent ecosystem level properties and improve our ability to predict the impacts of increasing environmental variability on the stability of ecosystem functioning in natural systems.
 
 ## New Theory
-New theory .... storage effect only .... annual plant specific
+\vspace{-0.5em}
+My previous theory relied on a very general model of fluctation-dependent species coexistence, but linking the theory to particular systems requires a more bespoke model.
+My focus will be on annual plant systems where coexistence is due to the storage effect, at least in part.
+In annual plant systems, the storage effect operates because (1) germination is variable and species-specific and (2) the seed bank is long-lived, which buffers the population from declines in a succession of ``bad'' years.
+This is easily incorporated in a model of competing species:
+
+\begin{equation}
+N_i(t+1) = s_i[1-g_i(t)]N_i(t) + \frac{\lambda_i g_i(t)N_i(t)}{1 + \alpha_{ii}g_i(t)N_i(t) + \sum\limits_{j=1}^n{\alpha_{ij}g_j(t)N_j(t)}}
+\end{equation}
+
+\noindent{}where *N(t)* is the abundance of seeds at time *t*, *s* is seed survival, $\lambda$ is per capita fecundity, *g(t)* is the year-specific germination rate, $\alpha_{ii}$ is the intraspecific competition coefficient, and $\alpha_{ij}$ is the intraspecific competition coefficient. 
+Environmental variability is included through the time-varying germination fraction.
+Initial analysis of this models shows it can reproduce the results from Tredennick et al. (2017), and I will use the model to thoroughly explore the conditions under which species additions can buffer ecosystem stability against increasing environmental variability.
+Several questions will be answerable, such as: How do the relative magnitudes of germination variance and competition impact the the ability of new species to locally coexist? 
+And, as germination variance increases, at what point does that variance overwhelm any counteracting effect of species additions?
 
 ## Empirical Tests
-Winter annual plant communities in the Sonoran Desert offer an ideal model system for testing predictions from our theoretical model.
+\vspace{-0.5em}
+I will parameterize the model in Equation 1 using long-term data from a winter annual plant community (e.g., Gremer & Venable 2014).
+Past modeling efforts with these data have included estimates of intraspecific competition (Gremer & Venable 2014), but interspecific competition has not been estimated.
+Therefore, I will constrain the modeling effort to species that commonly co-occur in a sufficient number of plots and years to use natural variability among the plots to estimate interspecific competition.
+Without the effects of interspecific competition, species would not be competitively excluded when environmental variability decreases because the communities would exhibit neutral dynamics.
+I may only be able to fit the model in Equation 1 for a small subset of species due to data limiations.
+Fortunately, the theoretical predictions of Tredennick et al. (2017) can be tested with as few as four species.
 
+I will use the parameterized model to simulate communities under different levels of environmental variability (germination variance).
+At each level of environmental variability I will calculate species richness and the variance of total community seed abundance.
+Biodiversity-stability studies typically focus on biomass production, but the data do not include estimates of individual, species, or community level biomass.
+Therefore, I will focus on the coefficient of variation (*CV*) through time of seed abundance.
+By looking at the relationships among species richness, environmental variability, and the *CV* of seed abundance, I will be able to answer the fundamental question posed in the proposal: Can fluctuation-dependent species coexistence rescue ecosystem stability?
 
+\vspace{1em}
+\footnotesize
+\noindent{}\textbf{References}  
+Chesson, P. (2000). \emph{Annu. Rev. Ecol. Syst.} 31:343–366.
+  
+  \vspace{0.5em}
+\noindent{}Gremer, J.R. & D.L. Venable (2014). \emph{Ecology Letters} 17(3):380–387.   
+  
+  \vspace{0.5em}
+\noindent{}Tredennick, A.T., P.B. Adler, & F.R. Adler. (2017). \emph{Ecology Letters} 20(8):958–968.
+<!---
 \begin{figure}
 \floatbox[{\capbeside\thisfloatsetup{capbesideposition={left,top},capbesidewidth=6cm}}]{figure}[\FBwidth]
 {\caption{Simulation results from an annual plant model with two species coexisting by the storage effect. Left panels show time series from three simulations: A) environmental variability is too low to allow coexistence; B) environmental variability is high enough to allow coexistence, but only one species is present; and C) environmental variability is high enough to allow coexistence of both species. The barplot on the right shows the coefficient of variation of total community abundance for each simulation. CV increases as environmental varition does, but fluctuation-dependent coexistence allows for portfolio effects (compare red and blue bars).}\label{fig:test}}
 {\includegraphics[width=4in]{../figures/sim_example.png}}
 \end{figure}
+
+
+  
+  \vspace{0.5em}
+\noindent{}Harrison, S.P., E.S. Gornish, and S.Copeland. (2015). Climate-driven diversity loss in a grassland community. \emph{Proceedings of the National Academy of Sciences} 112(28):8672–8677.   
+--->
