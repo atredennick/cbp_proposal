@@ -10,7 +10,7 @@ header-includes:
 - \usepackage{wrapfig}
 - \usepackage[font={footnotesize,it}]{caption}
 - \usepackage{floatrow}
-- \usepackage{palatino}
+- \usepackage[sc]{mathpazo}
 layout: 11pt
 linkcolor: black
 output:
