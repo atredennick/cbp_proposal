@@ -41,7 +41,7 @@ urlcolor: black
 Temporal environmental variation permeates through all levels of ecological systems.
 It can drive the evolution of traits and species, determine the viability of populations, allow species to coexist, and impact the stability of ecosystem functioning.
 Yet, rarely are the impacts of environmental fluctuations at one level of organization explicitly accounted for in the processes that occur at other levels.
-For example, despite rapid theoretical and empirical progress in the fields of species coexistence and biodiversity-ecosystem functioning (BEF) over the last 20 years, research on the two topics remains separate.
+For example, despite rapid theoretical and empirical progress in the fields of species coexistence and biodiversity-ecosystem functioning (BEF) over the last 20 years, research on the two topics remains separate despite their shared focus on the impacts of environmental variability.
 Consequently, we lack a satisifactory answer to a fundamental question of applied relevance: \emph{How will ecosystem stability respond to increasing environmental variability?}
 
 Environmental variability is forecast to increase because of global climate change, and an intuitive prediction is that ecosystem functioning will become less stable as a result.
@@ -52,7 +52,7 @@ Increasing environmental variability will cause species' abundances to fluctuate
   \caption{An integrated theory to understand the net effect of environmental variability on ecosystem stability. \textcolor{orange}{Coexistence theory} has focused on how environmental variability can maintain diversity by stabilizing species coexistence, while \textcolor{blue}{diversity-stability theory} has focused on the effect of species richness on ecosystem stability. In combination, environmental variability will decrease ecosystem stability, but it may also increase species richness, which increases ecosystem stability (Tredennick et al. 2017). I propose new theory and empirical tests to understand the full effect of environmental variability when it also promotes diversity.}
 \end{wrapfigure}
 What this prediction ignores, however, is that environmental variability can also promote species coexistence and, in turn, species richness (Chesson 2000; Figure 1).
-When coexistence is fluctuation-depdendent, rather than fluctuation-independent, increasing environmental variability can create opportunities for new species to locally coexist and contribute to portfolio effects that stabilize ecosystem functioning (Tredennick et al. 2017).
+When coexistence is fluctuation-depedendent, rather than fluctuation-independent, increasing environmental variability can create opportunities for new species to locally coexist and contribute to portfolio effects that stabilize ecosystem functioning (Tredennick et al. 2017).
 So far, this work has been theoretical; whether this phenomenon ocurrs in nature remains unknown.
 
 For this CPB Postdoctoral Fellowship, I propose to (1) expand my previous theoretical work that first integrated diversity-stability theory and modern coexistence theory and (2) conduct empirical tests of the theory using long-term data from annual plant systems in Arizona (Gremer & Venable 2014).
@@ -81,14 +81,14 @@ I will parameterize the model in Equation 1 using long-term data from a winter a
 Past modeling efforts with these data have included estimates of intraspecific competition (Gremer & Venable 2014), but interspecific competition has not been estimated.
 Therefore, I will constrain the modeling effort to species that commonly co-occur in a sufficient number of plots and years to use natural variability among the plots to estimate interspecific competition.
 Without the effects of interspecific competition, species would not be competitively excluded when environmental variability decreases because the communities would exhibit neutral dynamics.
-I may only be able to fit the model in Equation 1 for a small subset of species due to data limiations.
+I may only be able to fit the model in Equation 1 for a small subset of species due to data limitations.
 Fortunately, the theoretical predictions of Tredennick et al. (2017) can be tested with as few as four species.
 
 I will use the parameterized model to simulate communities under different levels of environmental variability (germination variance).
 At each level of environmental variability I will calculate species richness and the variance of total community seed abundance.
 Biodiversity-stability studies typically focus on biomass production, but the data do not include estimates of individual, species, or community level biomass.
 Therefore, I will focus on the coefficient of variation (*CV*) through time of seed abundance.
-By looking at the relationships among species richness, environmental variability, and the *CV* of seed abundance, I will be able to answer the fundamental question posed in the proposal: Can fluctuation-dependent species coexistence rescue ecosystem stability?
+By looking at the relationships among species richness, environmental variability, and the *CV* of seed abundance, I will be able to answer the fundamental question posed in this proposal: Can fluctuation-dependent species coexistence rescue ecosystem stability?
 
 \vspace{1em}
 \footnotesize
