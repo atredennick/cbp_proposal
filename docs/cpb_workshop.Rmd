@@ -41,4 +41,5 @@ Using an example project, we will create a Github repository with code and data,
 I will introduce best practices for coding and data cleaning/manipulation along the way, which eases the burden of getting code production-ready after paper acceptance.
 Throughout the workshop I will highlight how the tasks we are learning benefit both the researcher themselves (e.g., figures that update on the fly in R Markdown) and other researchers (e.g., providing a resource from which others can build).
 By the end of the workshop participants will have the skills to easily make their own research reproducible.
+This workshop will complement and extend the R course taught by Baskett and Schreiber, without needing their course as a prerequisite.
  

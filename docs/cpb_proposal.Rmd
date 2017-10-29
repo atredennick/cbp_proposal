@@ -71,22 +71,22 @@ Answering these questions will put my empirical results in context and inform wh
 To answer my questions I will use an annual plant model where coexistence is due to the storage effect, at least in part.
 In annual plant systems, the storage effect operates because germination is variable and species-specific and the seed bank is long-lived, which buffers the population from declines in a succession of ``bad'' years.
 This is easily incorporated in a model of competing species:
-
+\vspace{-0.8em}
 \begin{equation}
-N_i(t+1) = \left(s_i[1-g_i(t)]N_i(t) + \lambda_i g_i(t)N_i(t)\right) \div \left( 1 + \sum\limits_{j=1}^n{\alpha_{ij}g_j(t)N_j(t)} \right)
+N_i(t+1) = s_i[1-g_i(t)]N_i(t) + \frac{\lambda_i g_i(t)N_i(t)}  {1 + \sum\limits_{j=1}^n{\alpha_{ij}g_j(t)N_j(t)}}
 \end{equation}
-
+\vspace{-0.5em}
 \noindent{}where *N(t)* is the abundance of seeds at time *t*, *s* is seed survival, $\lambda$ is per capita fecundity, *g(t)* is the year-specific germination rate, and $\alpha$ represents intraspecific (when $i = j$) and interspecific (when $i \neq j$) competition.
 Environmental variability is included through the time-varying germination fraction.
 I will simulate the model across levels of environmental variability with different species pool sizes to answer my two questions.
-A. Hastings and I will lead this work, with significant input from J. Gremer and S. Harrison as we link our findings to empirical systems and explore whether certain processes can be recovered from abundance measures alone.
+A. Hastings and I will lead this work, with significant input from J. Gremer and S. Harrison as we link our findings to empirical systems and explore whether certain processes can be recovered from abundance measures alone (see below).
 
 ### Empirical Tests
 \vspace{-0.5em}
 My empirical work aims to answer the main question of this proposal: Can fluctuation-dependent species coexistence rescue ecosystem stability?
 To answer this question I will parameterize the model in equation 1 using long-term data from a winter annual plant community where coexistence is likely maintained by the storage effect (e.g., Gremer & Venable 2014).
 I will use the parameterized model to simulate communities under different levels of environmental variability (germination variance).
-At low levels of environmental variability, fewer species should be able to coexist, which will decrease stability, but the lower magnitude of environmental fluctuation should also increase stability.
+At low levels of environmental variability, fewer species should be able to coexist, which will decrease stability, but the lower magnitude of environmental fluctuations should also increase stability.
 To partition the dual effects of environmental variability at a given level, I will compare time series of communities with all possible coexisting species to time series where species are sequentially removed.
 Then I can quantify how much each possible coexisting species contributes to ecosystem stability. 
 
