@@ -1,0 +1,60 @@
+---
+bibliography: ~/Dropbox/Bibliography/CoexistStability.bib
+csl: components/ecology.csl
+fontsize: 11pt
+geometry: margin=1in
+header-includes:
+- \usepackage{todonotes}
+- \usepackage{rotating}
+- \usepackage{color, soul}
+- \usepackage{wrapfig}
+- \usepackage[font={footnotesize,it}]{caption}
+- \usepackage{floatrow}
+- \usepackage{palatino}
+- \usepackage{wallpaper}
+layout: 11pt
+linkcolor: black
+output:
+  pdf_document:
+    fig_caption: yes
+    keep_tex: no
+urlcolor: black
+---
+\pagenumbering{gobble}
+\ULCornerWallPaper{1}{WILD-letterhead_pg1.pdf}
+\setlength{\parindent}{2em}
+\setlength{\parskip}{0.5em}
+
+\phantom{test}
+\vspace{5em}
+
+\noindent{Postdoctoral Fellowship Selection Committee}    
+Center for Population Biology  
+University of California, Davis  
+Davis, CA
+
+\begin{flushright}
+\today
+\end{flushright}
+
+\vspace{3em}
+
+\noindent{}Dear Selection Committee,  
+
+\vspace{0.5em}
+
+\noindent{}I am excited to apply for the Center for Population Biology Postdoctoral Fellowship at UC Davis. I am currently a postdoctoral researcher at Utah State University advised by Peter Adler, and working with Stephen Ellner and Giles Hooker at Cornell University. Previously, I was an NSF Postdoctoral Fellow in Biology and Mathematics advised by Peter Adler (USU) and Fred Adler (University of Utah). I received my Ph.D. in Ecology from Colorado State University in August 2014 under Niall Hanan. 
+ 
+My research aims to discover the processes that determine the stability of ecosystem functioning in time and space. I use dynamic, multi-species population models, fit to long term data, that allow me to target specific mechanisms at the population and community levels that ultimately affect ecosystem functioning. Along with advancing our basic understanding of plant community dynamics and structure, I am also dedicated to advancing our ability to forecast the impacts of climate change. For example, I have led efforts to develop plant population forecasts at large spatial scales by combining dynamic modeling approaches and remotely sensed time series.
+
+My proposed research builds on my previous work, testing theory I have recently published using long term data from an Arizona winter annual plant community. Dr. Jennifer Gremer, one of my proposed faculty mentors, has worked extensively with these data, making her the perfect person to work with at CPB. In addition, I propose to work with Dr. Alan Hastings on a theoretical component and with Dr. Susan Harrison on an empirical component. As you will see in my description of proposed research, my proposed work naturally fosters collaboration among these three faculty.
+
+Thank you for your time and consideration. I hope you are as excited about my application as I am about being a CPB Postdoctoral Fellow.
+
+\vspace{2em}
+
+\noindent{}Sincerely,  
+
+\vspace{0.5em}
+
+\noindent{}Andrew Tredennick
