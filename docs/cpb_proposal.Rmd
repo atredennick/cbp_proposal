@@ -27,16 +27,18 @@ urlcolor: black
 \textbf{\large{CPB Postdoctoral Fellowship: \\ Can fluctuation-dependent species coexistence rescue ecosystem stability?}}
 \end{center}
 
-# Personnel
+<!---
+## Personnel
 \vspace{-1em}
 \begin{description}
 \item [Postdoctoral Fellow:] Andrew Tredennick
 \item [Faculty Mentors:] Jennifer Gremer, Susan Harrison, and Alan Hastings
 \end{description}
 
-# Description of Proposed Research
-\vspace{-1em}
-## Background
+
+## Description of Proposed Research
+--->
+### Background
 \vspace{-0.5em}
 Temporal environmental variation permeates through all levels of ecological systems.
 It can drive the evolution of traits and species, determine the viability of populations, allow species to coexist, and impact the stability of ecosystem functioning.
@@ -57,9 +59,10 @@ Whether this phenomenon ocurrs in nature remains unknown.
 
 For this CPB Postdoctoral Fellowship, I propose to (1) expand my previous theoretical work that first integrated diversity-stability theory and modern coexistence theory and (2) conduct empirical tests of the theory using long-term data from annual plant systems in Arizona (Gremer & Venable 2014).
 In so doing, I will add to our fundamental understanding of how the causes and consequences of biodiversity interact.
-My work will also help us predict the sensitivity of ecosystems to increasing environmental variability.
+My proposed faculty mentors are Jennifer Gremer, Susan Harrison, and Alan Hastings.
+These faculty span the empirical-theoretical spectrum of ecology, making them perfectly suited to guide my proposed research.
 
-## New Theory
+### New Theory
 \vspace{-0.5em}
 My proposed theoretical work centers on two questions: (1) As environmental variance increases, at what point does that variance overwhelm any counteracting effect of species additions on ecosystem stability?
 And, (2) does the buffering effect of species additions decline as species richness increases?
@@ -70,14 +73,15 @@ In annual plant systems, the storage effect operates because germination is vari
 This is easily incorporated in a model of competing species:
 
 \begin{equation}
-N_i(t+1) = s_i[1-g_i(t)]N_i(t) + \frac{\lambda_i g_i(t)N_i(t)}{1 + \alpha_{ii}g_i(t)N_i(t) + \sum\limits_{j=1}^n{\alpha_{ij}g_j(t)N_j(t)}}
+N_i(t+1) = \left(s_i[1-g_i(t)]N_i(t) + \lambda_i g_i(t)N_i(t)\right) \div \left( 1 + \sum\limits_{j=1}^n{\alpha_{ij}g_j(t)N_j(t)} \right)
 \end{equation}
 
-\noindent{}where *N(t)* is the abundance of seeds at time *t*, *s* is seed survival, $\lambda$ is per capita fecundity, *g(t)* is the year-specific germination rate, $\alpha_{ii}$ is the intraspecific competition coefficient, and $\alpha_{ij}$ is the intraspecific competition coefficient. 
+\noindent{}where *N(t)* is the abundance of seeds at time *t*, *s* is seed survival, $\lambda$ is per capita fecundity, *g(t)* is the year-specific germination rate, and $\alpha$ represents intraspecific (when $i = j$) and interspecific (when $i \neq j$) competition.
 Environmental variability is included through the time-varying germination fraction.
 I will simulate the model across levels of environmental variability with different species pool sizes to answer my two questions.
+A. Hastings and I will lead this work, with significant input from J. Gremer and S. Harrison as we link our findings to empirical systems and explore whether certain processes can be recovered from abundance measures alone.
 
-## Empirical Tests
+### Empirical Tests
 \vspace{-0.5em}
 My empirical work aims to answer the main question of this proposal: Can fluctuation-dependent species coexistence rescue ecosystem stability?
 To answer this question I will parameterize the model in equation 1 using long-term data from a winter annual plant community where coexistence is likely maintained by the storage effect (e.g., Gremer & Venable 2014).
@@ -92,16 +96,25 @@ Without the effects of interspecific competition, species would not be competiti
 I may only be able to fit the model in equation 1 for a small subset of species due to data limitations.
 Fortunately, the theoretical predictions of Tredennick et al. (2017) can be tested with as few as four species.
 
-\vspace{1em}
+To complement my analysis of demographic data, I will explore whether I can test my predictions using easier-to-collect abundance data (e.g., Harrison et al. 2015).
+Doing so will require theoretical work with A. Hastings to test our underlying assumptions and a comparison of two long term datasets associated with J. Gremer and S. Harrison.
+Thus, my proposed work naturally fosters interaction among three CPB labs that do not typically collaborate.
+
+
+\vspace{0.6em}
 \footnotesize
 \noindent{}\textbf{References}  
 Chesson, P. (2000). \emph{Annu. Rev. Ecol. Syst.} 31:343–366.
   
-  \vspace{0.5em}
-\noindent{}Gremer, J.R. & D.L. Venable (2014). \emph{Ecology Letters} 17(3):380–387.   
+  \vspace{0.3em}
+\noindent{}Gremer, J.R. & D.L. Venable (2014). \emph{Ecology Letters} 17(3):380–387.  
+
+\vspace{0.3em}
+\noindent{}Harrison, S.P., E.S. Gornish, and S. Copeland. (2015). \emph{Proceedings of the National Academy of Sciences} 112(28):8672–8677. 
   
-  \vspace{0.5em}
+  \vspace{0.3em}
 \noindent{}Tredennick, A.T., P.B. Adler, & F.R. Adler. (2017). \emph{Ecology Letters} 20(8):958–968.
+
 <!---
 \begin{figure}
 \floatbox[{\capbeside\thisfloatsetup{capbesideposition={left,top},capbesidewidth=6cm}}]{figure}[\FBwidth]
